@@ -1,0 +1,21 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+//import Navbar from "./Navbar";
+import Loggin from "./Main_loggin/Main_loggin.jsx";
+//import PatientSignin from "./Patient_signin/Patient_signin";
+//import SelectPath from "./Select_path/Select-path.jsx";
+//import Select_Hospital from "./Select_Hospital/Select_Hospital.jsx";
+//import CardList from "./Card/Card.jsx";
+//import OPD_register from "./OPD_REG/OPD_register.jsx";
+//import Register_another from "./Register_another/register_new.jsx";
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <Loggin />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
